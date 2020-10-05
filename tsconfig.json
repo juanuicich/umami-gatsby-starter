@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["types/*", "*"]
+    },
+    "plugins": [{ "name": "typescript-plugin-tw-template" }]
+  },
+  "files": ["twin.d.ts"]
+}
